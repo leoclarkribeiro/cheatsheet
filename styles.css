@@ -1,0 +1,57 @@
+/* Set body colors and fonts */
+body {
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+/* Reset some default styles to make the table look cleaner */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Style the table header with blue background */
+th {
+    background-color: #3498db;
+    color: #fff;
+    /* White text for better contrast */
+    font-weight: bold;
+}
+
+/* Style alternating rows with different shades of blue */
+tr:nth-child(even) {
+    background-color: #f2f9fd;
+    /* Light blue */
+}
+
+tr:nth-child(odd) {
+    background-color: #e5f1fb;
+    /* Slightly darker blue */
+}
+
+/* Style table rows on hover with a different shade of blue */
+tr:hover {
+    background-color: #2980b9;
+    /* Darker blue on hover */
+}
+
+/* Center the text in the first column (optional) */
+td:first-child {
+    text-align: center;
+}
+
+#monospace {
+    font-family: "Lucida Console", Courier, monospace;
+    background-color: burlywood;
+  }
+
